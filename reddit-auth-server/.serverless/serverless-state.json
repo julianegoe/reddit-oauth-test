@@ -190,7 +190,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/reddit-auth-server/dev/1622500253822-2021-05-31T22:30:53.822Z/reddit-auth-server.zip"
+                "S3Key": "serverless/reddit-auth-server/dev/1622547932448-2021-06-01T11:45:32.448Z/reddit-auth-server.zip"
               },
               "Handler": "handler.getUri",
               "Runtime": "nodejs12.x",
@@ -226,7 +226,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/reddit-auth-server/dev/1622500253822-2021-05-31T22:30:53.822Z/reddit-auth-server.zip"
+                "S3Key": "serverless/reddit-auth-server/dev/1622547932448-2021-06-01T11:45:32.448Z/reddit-auth-server.zip"
               },
               "Handler": "handler.getBearerToken",
               "Runtime": "nodejs12.x",
@@ -255,24 +255,24 @@
               "GetBearerTokenLogGroup"
             ]
           },
-          "GetUriLambdaVersion1lBcX9hNGGadb7PYs34hMVuGRBiF3ryw9RZGl1bz8": {
+          "GetUriLambdaVersionyTQYASSFZptjFlNtDgU2MFaM1iD8dYvvzqsllztbN0": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GetUriLambdaFunction"
               },
-              "CodeSha256": "ZUjIVqaMK5UuKeEQhBuYbH93CqC2zooriPW8h9WFsDw="
+              "CodeSha256": "HxaBquH4AtLvkyZnZADqltXuizOV04uis9y0FUaMQCs="
             }
           },
-          "GetBearerTokenLambdaVersionzZYK0K5pU3XLfp1d9ruYfJTgM0JyVBv8CtkxdhJntg": {
+          "GetBearerTokenLambdaVersiondik0TCFt0e2CPz3yqxYdmuK4QmvfxwQ44JREsGiXPM": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GetBearerTokenLambdaFunction"
               },
-              "CodeSha256": "ZUjIVqaMK5UuKeEQhBuYbH93CqC2zooriPW8h9WFsDw="
+              "CodeSha256": "HxaBquH4AtLvkyZnZADqltXuizOV04uis9y0FUaMQCs="
             }
           },
           "HttpApi": {
@@ -452,7 +452,7 @@
           "GetUriLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GetUriLambdaVersion1lBcX9hNGGadb7PYs34hMVuGRBiF3ryw9RZGl1bz8"
+              "Ref": "GetUriLambdaVersionyTQYASSFZptjFlNtDgU2MFaM1iD8dYvvzqsllztbN0"
             },
             "Export": {
               "Name": "sls-reddit-auth-server-dev-GetUriLambdaFunctionQualifiedArn"
@@ -461,7 +461,7 @@
           "GetBearerTokenLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GetBearerTokenLambdaVersionzZYK0K5pU3XLfp1d9ruYfJTgM0JyVBv8CtkxdhJntg"
+              "Ref": "GetBearerTokenLambdaVersiondik0TCFt0e2CPz3yqxYdmuK4QmvfxwQ44JREsGiXPM"
             },
             "Export": {
               "Name": "sls-reddit-auth-server-dev-GetBearerTokenLambdaFunctionQualifiedArn"
@@ -607,7 +607,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "GetUriLambdaVersion1lBcX9hNGGadb7PYs34hMVuGRBiF3ryw9RZGl1bz8"
+        "versionLogicalId": "GetUriLambdaVersionyTQYASSFZptjFlNtDgU2MFaM1iD8dYvvzqsllztbN0"
       },
       "getBearerToken": {
         "handler": "handler.getBearerToken",
@@ -627,7 +627,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "GetBearerTokenLambdaVersionzZYK0K5pU3XLfp1d9ruYfJTgM0JyVBv8CtkxdhJntg"
+        "versionLogicalId": "GetBearerTokenLambdaVersiondik0TCFt0e2CPz3yqxYdmuK4QmvfxwQ44JREsGiXPM"
       }
     },
     "configValidationMode": "warn",
@@ -649,7 +649,7 @@
     "artifact": "/Users/juliane/Coding/reddit-oauth-test/reddit-auth-server/.serverless/reddit-auth-server.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/reddit-auth-server/dev/1622500253822-2021-05-31T22:30:53.822Z",
+    "artifactDirectoryName": "serverless/reddit-auth-server/dev/1622547932448-2021-06-01T11:45:32.448Z",
     "artifact": "reddit-auth-server.zip"
   }
 }

@@ -52,7 +52,7 @@ module.exports.getBearerToken = async (event) => {
     
     try {
       const response = await axios.post('https://www.reddit.com/api/v1/access_token', data, auth, headers)
-      return {body: JSON.stringify(response.data)}
+      return {body: response.data}
     } catch (err) {
       return {body: JSON.stringify(err)}
   }
